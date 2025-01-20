@@ -42,9 +42,9 @@ class Student:
 
 class PDPManager:
     def init(self):
-        self.students = []  # Talabalar ro'yxati
-        self.pupils = []  # O'quvchilar ro'yxati
+        self.students = []
 
+        self.pupils = []
     def add_student(self, student):
         self.students.append(student)
 
